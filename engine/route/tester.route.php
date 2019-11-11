@@ -17,6 +17,13 @@ class Tester extends Route{
         $this -> bind('/tester/formDatabase');
         
     }
+  
+    public function tes_email()
+    {
+      $email = 'alditha.forum@gmail.com';
+      $emailValid = $this -> emailCheck($email);
+      echo $emailValid;
+    }
 
     public function sqlCommand()
     {
