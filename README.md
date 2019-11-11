@@ -14,6 +14,8 @@ Framework ini menggunakan konsep Simple MVC
 - Model => State 
 - View => Bind
 
+<a href='http://sandbox.haxors.or.id/uinsuwf/'>Demo</a> 
+
 Instalasi offline 
 - Download source code, letakkan di folder webserver
 - Setting konfigurasi awal di 'engine/rule.php'
