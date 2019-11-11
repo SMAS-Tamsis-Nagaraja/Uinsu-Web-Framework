@@ -13,12 +13,6 @@
 * @since	Version 3.5
 */
 
-
-/**
-*
-*
-*/
-
 class Route{
     
     public function bind($blade, $data = [])
@@ -34,6 +28,10 @@ class Route{
     
     public function randomString($length)
     {
+        $bahan = 'qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM';
+        $acak = str_shuffle($bahan);
+        $hasil = substr($acak,0,$length);
+        echo $hasil;
         //var_dum("Data");
     }        
     
