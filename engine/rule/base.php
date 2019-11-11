@@ -9,6 +9,7 @@
 /**
 * Home base (alamat website/server) 
 * cth : localhost/uinsuWf atau http://haxorsprogramming.id
+* apabila di upload di hosting, perhatikan http/https nya, karena akan berpengaruh
 */
 $homeBase = 'http://sandbox.haxors.or.id/uinsuwf/';
 
@@ -43,23 +44,6 @@ $tanggal = date("Y-m-d");
 $waktu = date("m:s:H");
 
 
-
-/**
- * Library 
- * 
- * 
- */
-
-
-
-//------ Fungsi ------//
-$stringRandom = "QWERTYUIOPLKJHGFDSAZXCVBNMQWERTYUIOPLKJHGFDSAZXCVBNM";
-$numberRandom = "789456123";
-$allRandom = $stringRandom.$numberRandom;
-$newRandomString = "";
-
-
-
 /**
 *------------------- Definisikan semua variabel ke global ------------------------
 *semua variabel dapat dipanggil di route, bind, maupun state
@@ -73,12 +57,7 @@ define('MAINROUTE',$mainRoute);
 define('STYLEBASE',$styleBase);
 define('IMGBASE',$imgBase);
 
-//
 define('TANGGAL',$tanggal);
-define('WAKTU',"Waktu");
-//
-define('RANDOM_STRING',$stringRandom);
-define('NUMBER_RANDOM',$numberRandom);
-define('ALL_RANDOM',$allRandom);
+define('WAKTU',$waktu);
 
 

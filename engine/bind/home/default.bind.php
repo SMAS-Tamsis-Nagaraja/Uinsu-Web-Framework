@@ -68,13 +68,13 @@
                 <div class="title m-b-md titleDepan">
                     Uinsu Web Framework
                 </div>
-                <div>Ayo mulai dari jelajahi di => "/engine/route/home.route.php"<br/>
-                  Setting konfigurasi web anda di => "/engine/rule/base.php"
+                <div><small>Ayo mulai dari jelajahi di => "/engine/route/home.route.php"</small><br/>
+                  <small>Setting konfigurasi web anda di => "/engine/rule/base.php"</small>
                 </div><br/>
                 <div class="links">
                     <a href="<?=HOMEBASE; ?>doc/index.html" target="new">Documentation</a>
                     <a href="https://github.com/haxorsprogramming/Uinsu-Web-Framework" target='new'>Git</a>
-                    <a href="https://github.com/haxorsprogramming/Uinsu-Web-Framework" target='new'>API Development</a>
+                    <a href="http://serverless.haxors.or.id" target='new'>API Development</a>
                     <a href="<?=HOMEBASE; ?>crud" id='btnCrud' onclick='pesanToCrud()'>Example CRUD</a>
                     
                    
