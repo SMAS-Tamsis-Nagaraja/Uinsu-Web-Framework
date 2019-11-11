@@ -7,8 +7,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?=HOMEBASE; ?>ladun/default/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
-
+      
     <title>Crud Example</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap');
+      body{
+        font-family: 'Hind Madurai', sans-serif;
+      }
+    </style>
   </head>
   <body>
   <div class="container" style="padding-top:12px;">

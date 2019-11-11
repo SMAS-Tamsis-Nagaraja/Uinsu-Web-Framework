@@ -9,14 +9,21 @@
         <!-- Fonts -->
        <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
         <style type="text/css">
+          @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+          @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+          @import url('https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap');
           html, body {
                 background-color: #fff;
                 color: #636b6f;
-               font-family: 'Asap', sans-serif;
+                font-family: 'Hind Madurai', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
             }
+          
+          .titleDepan{
+           
+          }
             .full-height {
                 height: 100vh;
             }
@@ -58,7 +65,7 @@
             
             <div class="content">
               Selamat menggunakan
-                <div class="title m-b-md">
+                <div class="title m-b-md titleDepan">
                     Uinsu Web Framework
                 </div>
                 <div>Ayo mulai dari jelajahi di => "/engine/route/home.route.php"<br/>

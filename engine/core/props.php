@@ -38,7 +38,7 @@ class Props{
        if( file_exists('engine/route/'.$url[0].'.route.php')){
            $this -> route = $url[0];           
            unset($url[0]);
-       }      
+       }     
        require_once 'engine/route/'.$this->route.'.route.php';
        $this -> route = new $this -> route;
 
@@ -48,9 +48,10 @@ class Props{
                unset($url[1]);
            }
        }
-
-       if( !empty($url)){
-           $this -> params = array_values($url);
+      
+       if( !empty($url)){       
+         require_once 'engine/error/no_route.html';
+         die();
        }
        call_user_func_array([$this -> route, $this -> method], $this -> params);
 
