@@ -14,7 +14,7 @@ $dbServer = 'localhost';
  * 
  * Database user
  */
-$dbUser = 'haxorsdb';
+$dbUser = 'haxorsdbadmin';
 /**
  * 
  * Database password
