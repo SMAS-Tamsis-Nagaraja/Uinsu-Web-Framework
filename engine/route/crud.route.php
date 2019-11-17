@@ -26,41 +26,41 @@ public function tambahData()
 
 public function proTambahData()
 {
-	$data['nim'] = $this -> inputPost('nim');
-	$data['nama'] = $this -> inputPost('nama');
-	$data['email'] = $this -> inputPost('email');
-	$data['alamat'] = $this -> inputPost('alamat');
-	$data['jurusan'] = $this -> inputPost('jurusan');
-	$this -> state('crudSt') -> tambahData($data);
+	$data['nim'] = $this -> inp('nim');
+	$data['nama'] = $this -> inp('nama');
+	$data['email'] = $this -> inp('email');
+	$data['alamat'] = $this -> inp('alamat');
+	$data['jurusan'] = $this -> inp('jurusan');
+	$this -> state('crudSt') -> inp($data);
 }
 
 public function proUpdateData()
 {
-	$data['nim'] = $this -> inputPost('nim');
-	$data['nama'] = $this -> inputPost('nama');
-	$data['email'] = $this -> inputPost('email');
-	$data['alamat'] = $this -> inputPost('alamat');
-	$data['jurusan'] = $this -> inputPost('jurusan');
-	$this -> state('crudSt') -> updateData($data);
+	$data['nim'] = $this -> inp('nim');
+	$data['nama'] = $this -> inp('nama');
+	$data['email'] = $this -> inp('email');
+	$data['alamat'] = $this -> inp('alamat');
+	$data['jurusan'] = $this -> inp('jurusan');
+	$this -> state('crudSt') -> inp($data);
 
 }
 
 public function formEdit()
 {
-	$nim = $this -> inputPost('nim');
+	$nim = $this -> inp('nim');
 	$data['mhsDetail'] = $this -> state('crudSt') -> mhsDetail($nim);
 	$this -> bind('crud/formEdit', $data);
 }
 
 public function proDeleteData()
 {
-	$nim = $this -> inputPost('nim');
+	$nim = $this -> inp('nim');
 	$this -> state('crudSt') -> deleteData($nim);
 }
 	
 	public function tesCariBaris()
 	{
-		
+		$nim = $this -> inp('nim');
 	}
 	
 	public function hitungBaris($namaTabel)

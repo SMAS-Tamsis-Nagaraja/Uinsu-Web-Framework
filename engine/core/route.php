@@ -51,13 +51,13 @@ class Route{
     }
     
   
-    public function inputPost($id)
+    public function inp($id)
     {
         $id = $_POST[$id];
         return $id;
     }
 
-    public function inputGet($id)
+    public function ing($id)
     {
         $id = $_POST[$id];
         return $id;
