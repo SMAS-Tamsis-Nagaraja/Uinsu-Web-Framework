@@ -14,11 +14,6 @@ public function tampilMahasiswa()
 	$this -> bind('/crud/tampilData',$data);
 }
 
-public function tampilMahasiswaDetail($id)
-{
-
-}
-
 public function tambahData()
 {
 	$this -> bind('/crud/formTambahData');

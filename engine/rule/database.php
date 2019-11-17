@@ -19,7 +19,7 @@ $dbUser = 'root';
  * 
  * Database password
  */
-$dbPassword = '';
+$dbPassword = 'nusaID@201910';
 /**
  * 
  * Database name

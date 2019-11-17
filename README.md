@@ -21,7 +21,8 @@ Instalasi offline
 - Setting konfigurasi awal di 'engine/rule.php'
 
 Instalasi via git
->> <i>git clone https://github.com/haxorsprogramming/Uinsu-Web-Framework.git</i> 
-- Versi yang bisa di jalankan ialah versi "3.05" dari repo ini
 
+```sh
+$ git clone https://github.com/haxorsprogramming/Uinsu-Web-Framework.git
+```
 Thanks for HaxorsProgramming Squad
