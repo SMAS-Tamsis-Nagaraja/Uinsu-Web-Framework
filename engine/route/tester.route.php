@@ -14,20 +14,19 @@ class Tester extends Route{
 
     public function formDatabase()
     {
-        $this -> bind('/tester/formDatabase');
-        
+        $this -> bind('/tester/formDatabase');    
     }
   
     public function tes_email()
     {
       $email = 'alditha.forum@gmail.com';
-      $emailValid = $this -> emailCheck($email);
+      $emailValid = $this -> emck($email);
       echo $emailValid;
     }
   
     public function tes_random()
     {
-      $id = $this -> randomString(10);
+      $id = $this -> rnstr(10);
       echo $id;
     }
 

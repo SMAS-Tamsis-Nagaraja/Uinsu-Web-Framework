@@ -14,12 +14,12 @@ $dbServer = 'localhost';
  * 
  * Database user
  */
-$dbUser = 'root';
+$dbUser = 'haxorsdb';
 /**
  * 
  * Database password
  */
-$dbPassword = 'nusaID@201910';
+$dbPassword = '3ncoding4sc11A@123';
 /**
  * 
  * Database name

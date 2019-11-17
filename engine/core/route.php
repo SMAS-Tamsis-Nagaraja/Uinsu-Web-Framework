@@ -26,7 +26,7 @@ class Route{
         return new $state;
     }
     
-    public function randomString($length)
+    public function rnstr($length)
     {
         $bahan = 'qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM';
         $acak = str_shuffle($bahan);
@@ -44,13 +44,7 @@ class Route{
         
         }
     }
-    
-    public function sendEmail()
-    {
-    $data['mailId'] = $this -> inputPost('mailId');
-    }
-    
-  
+ 
     public function inp($id)
     {
         $id = $_POST[$id];
@@ -63,7 +57,7 @@ class Route{
         return $id;
     }
     
-    public function emailCheck($email)
+    public function emck($email)
     {
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
           echo("true");
