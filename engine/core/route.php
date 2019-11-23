@@ -1,4 +1,6 @@
 <?php
+session_start();
+date_default_timezone_set("Asia/Jakarta");
 /**
 * Uinsu Web Framework
 * Small, Fast, & Secure Web Framework
@@ -56,7 +58,28 @@ class Route{
         $id = $_POST[$id];
         return $id;
     }
-    
+  
+    public function setses($id, $val)
+    {
+        $_SESSION[$id] = $val;
+    }
+  
+    public function getses($id)
+    {
+      return $_SESSION[$id];
+    }
+  
+    public function destses()
+    {
+      session_destroy();
+    }
+  
+    public function goTo($page)
+    {
+      header("Location:".$page);
+      exit();
+    }
+  
     public function emck($email)
     {
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {

@@ -76,6 +76,12 @@ class state{
       $this -> queryRun();
       return $this -> stmt -> fetchAll(PDO::FETCH_ASSOC);
     }
+  
+    public function numRow()
+    {
+       $this -> queryRun();
+       return $this -> stmt -> rowCount(PDO::FETCH_ASSOC);
+    }
 
     public function querySingle()
     {
