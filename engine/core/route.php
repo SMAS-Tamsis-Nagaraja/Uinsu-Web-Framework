@@ -27,7 +27,7 @@ class Route{
         require_once 'engine/state/'.$state.'.state.php';
         return new $state;
     }
-    
+    //membuat string random(panjang_string)
     public function rnstr($length)
     {
         $bahan = 'qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM';
@@ -36,7 +36,7 @@ class Route{
         echo $hasil;
         //var_dum("Data");
     }        
-    
+    //fungsi upload
     public function upload($path)
     {
         $data['path'] = $data -> path($path);
