@@ -58,17 +58,17 @@ class Route{
         $id = $_POST[$id];
         return $id;
     }
-  
+    //fungsi untuk membuat session
     public function setses($id, $val)
     {
         $_SESSION[$id] = $val;
     }
-  
+    //fungsi untuk mengambil session
     public function getses($id)
     {
       return $_SESSION[$id];
     }
-  
+    //fungsi untuk menghapus seluruh sesi
     public function destses()
     {
       session_destroy();
