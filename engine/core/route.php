@@ -46,13 +46,13 @@ class Route{
         
         }
     }
- 
+    //ambil data post
     public function inp($id)
     {
         $id = $_POST[$id];
         return $id;
     }
-
+    //ambil data get
     public function ing($id)
     {
         $id = $_POST[$id];
