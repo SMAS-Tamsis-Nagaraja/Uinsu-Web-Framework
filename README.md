@@ -26,6 +26,6 @@ Instalasi via git
 $ git clone https://github.com/haxorsprogramming/Uinsu-Web-Framework.git
 ```
 
-Bantu support kami untuk pengembangan club melalui link saweria di <a href='https://saweria.co/donate/haxorsprogramming'>sini</a>, sedikit banyaknya donasi dapat memberi kontribusi yang positif bagi perkembangan club ini. Terima kasih, salah koding .. ^_^
+Bantu support kami untuk pengembangan club melalui link saweria di <a href='https://saweria.co/donate/haxorsprogramming'>sini</a>, sedikit banyaknya donasi dapat memberi kontribusi yang positif bagi perkembangan club ini. Terima kasih, salam koding .. ^_^
 
 Thanks for HaxorsProgramming Squad
