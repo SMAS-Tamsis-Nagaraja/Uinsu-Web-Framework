@@ -26,6 +26,8 @@ Instalasi via git
 $ git clone https://github.com/haxorsprogramming/Uinsu-Web-Framework.git
 ```
 
+<b>Microframework ini digunakan oleh haxorsprogramming dalam membangun aplikasi" berbasis web maupun kebutuhan microservice, ada kemungkinan update terhadap framework dilakukan di project/aplikasi yang sedang dikembangkan, sehingga code di repo ini tidak update dengan framework yg sedang update/digunakan diaplikasi lain. Silahkan kontak kami untuk mendapatkan code yg update</p>
+
 Bantu support kami untuk pengembangan club melalui link saweria di <a href='https://saweria.co/donate/haxorsprogramming'>sini</a>, sedikit banyaknya donasi dapat memberi kontribusi yang positif bagi perkembangan club ini. Terima kasih, salam koding .. ^_^
 
 Thanks for HaxorsProgramming Squad
