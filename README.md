@@ -5,10 +5,10 @@ Micro Web Framework based on PHP MVC Web Programming Unpas - Universitas Islam N
 
 Special Thanks to : 
 
-- Bapak Sandhika Galih (Web Programming Unpas)
-- Bapak M. Ridwan (Ketua Pustipada Uinsu)
 - Bapak M. Ikhsan (Pembina Haxorsprogramming)
+- Bapak M. Ridwan (Ketua Pustipada Uinsu)
 - Bapak M. Furqan (Ketua Program Studi Ilmu Komputer Uinsu)
+- Bapak Sandhika Galih (Web Programming Unpas)
 
 Tim pengembang :
 
