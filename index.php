@@ -2,7 +2,7 @@
 /**
 * Uinsu Web Framework 
 * Small, Fast, & Secure Web Framework
-* Based on PHP
+* Based on PHP 7
 * Special thanks to 
 * Bapak Sandika Galih (Web Programmign Unpas)
 *
