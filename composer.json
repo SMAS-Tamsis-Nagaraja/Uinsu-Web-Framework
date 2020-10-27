@@ -16,5 +16,12 @@
             "url": "https://github.com/haxorsprogramming/Uinsu-Web-Framework"
         }
     ],
+    "require-dev": {
+        "facade/ignition": "^2.3.6",
+        "fzaninotto/faker": "^1.9.1",
+        "mockery/mockery": "^1.3.1",
+        "nunomaduro/collision": "^5.0",
+        "phpunit/phpunit": "^9.3"
+    }
      "minimum-stability": "dev"
 }
