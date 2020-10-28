@@ -14,10 +14,6 @@ require_once 'lib/phpmailer/library/SMTP.php';
 //import library aws (untuk kebutuhan serverless)
 require 'lib/aws-master/src/Aws.php';
 //import library firebase (coming soon)
-require_once 'lib/escopos/autoload.php';
-
-use Mike42\Escpos\PrintConnectors\WindowsPrintConnector;
-use Mike42\Escpos\Printer;
 
 class Route{
     //fungsi bind (memasukkan view ke dalam controller)
@@ -42,7 +38,6 @@ class Route{
     //membuat int random dengan parameter(jumlah)
     public function rnint($length)
     {
-        // fungsi ini apa tdk bisa di ganti dengan default php?
       $bahan  = '123456789012345678901234567890123456780123456789012345678901234567890123456780123456789012345678901234567890123456780';
       $acak   = str_shuffle($bahan);
       $hasil  = substr($acak, 0, $length);
