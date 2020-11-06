@@ -37,6 +37,8 @@ public function proUpdateData()
 	$data['alamat'] = $this -> inp('alamat');
 	$data['jurusan'] = $this -> inp('jurusan');
 	$this -> state('crudSt') -> inp($data);
+	$data['status'] = 'sukses';
+	$this -> toJson($data);
 
 }
 
